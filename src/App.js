@@ -4,10 +4,8 @@ import MainMenu from "./Menu/MainMenu"
 
 function App() {
   return (
-  <div className="header">
     <MainMenu/>
     
-  </div>
   )
 
 }
