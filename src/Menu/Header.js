@@ -24,9 +24,9 @@ export default function MainMenu(){
                 </div>
 
                 <div className="header__menu">
-                    <div onClick={handleClick} className="header__menu_unselected"> Об о мне</div>
-                    <div onClick={handleClick} className="header__menu_unselected">Навыки</div>
-                    <div onClick={handleClick} className="header__menu_unselected">Проекты</div>
+                    <button onClick={handleClick} className="header__menu_unselected"> Об о мне</button>
+                    <button onClick={handleClick} className="header__menu_unselected">Навыки</button>
+                    <button onClick={handleClick} className="header__menu_unselected">Проекты</button>
                 </div>
 
                 <div className="header__right-elements">
