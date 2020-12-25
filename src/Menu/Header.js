@@ -1,7 +1,15 @@
 import React from "react";
 import "./Header.css";
 
+function handleClick(e) {
+    e.preventDefault();
+    alert("Произошло НАЖАТИЕ!")
+}
+
 export default function MainMenu(){
+
+
+
     return (
         <div className="header">
             <div className="header__top-elements">
@@ -16,14 +24,18 @@ export default function MainMenu(){
                 </div>
 
                 <div className="header__menu">
-                    <div className="header__menu_unselected">Об о мне</div>
-                    <div className="header__menu_unselected">Навыки</div>
-                    <div className="header__menu_unselected">Проекты</div>
+                    <div onClick={handleClick} className="header__menu_unselected"> Об о мне</div>
+                    <div onClick={handleClick} className="header__menu_unselected">Навыки</div>
+                    <div onClick={handleClick} className="header__menu_unselected">Проекты</div>
                 </div>
 
                 <div className="header__right-elements">
-                    <div>70/200</div>
-                    <div>50.000</div>
+                    <div><img class="header__icon" 
+                    alt="weight"
+                    src="https://cdn.iconscout.com/icon/free/png-512/weight-345-1176808.png"/> 70/200</div>
+                    <div><img class="header__icon" 
+                    alt="salary"
+                    src="https://cdn.iconscout.com/icon/free/png-256/bitcoin-1824299-1545921.png"/>50.000</div>
                 </div>
 
             </div>

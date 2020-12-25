@@ -2,8 +2,16 @@
     padding: 12px 25px 5px;
 }
 
+.header__icon{
+    color: red;
+    width: 1.5rem;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
 .header__top-elements{
-    font-size: 1.5vmax 1vmin;
+    font-size: 1.5;
     font-weight: lighter;
     
     display: flex;
@@ -42,6 +50,11 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-grow: 3;   
+}
+
+.header__menu_unselected:hover{
+    color: var(--blue-glow);
+    transform: scale(1.2);
 }
 
 .header__right-elements{
