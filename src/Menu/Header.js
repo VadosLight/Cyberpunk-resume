@@ -11,6 +11,7 @@ export default function MainMenu(){
                         <div className="header__level__number">23</div>
                         <div className="header__level__text">Уровень</div>
                     </div>
+
                     <div className="header__name">Вадим Татаринцев</div>
                 </div>
 
