@@ -1,10 +1,10 @@
 import React from 'react'
-import MainMenu from "./Menu/MainMenu"
+import Header from "./Menu/Header"
 
 
 function App() {
   return (
-    <MainMenu/>
+    <Header/>
     
   )
 

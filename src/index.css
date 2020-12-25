@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+:root{
+  --pink-glow: #fa6158;
+  --green-glow: #71e484;
+  --blue-glow: #8cfff8;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +12,10 @@ body {
   background: linear-gradient(170deg, rgb(51, 16, 17) 15%, rgba(15,15,19,1) 45%, rgba(3,6,10,1) 90%);
   
   font-family: -apple-system, BlinkMacSystemFont, 'Oswald', sans-serif;
+
+  -moz-text-shadow:0 0 4px var(--pink-glow); 
+  -webkit-text-shadow:0 0 4px var(--pink-glow); 
+  text-shadow:0 0 4px var(--pink-glow); 
 }
 
 code {
