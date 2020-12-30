@@ -7,9 +7,6 @@ function handleClick(e) {
 }
 
 export default function MainMenu(){
-
-
-
     return (
         <div className="header">
             <div className="header__top-elements">
@@ -37,7 +34,6 @@ export default function MainMenu(){
                     alt="salary"
                     src="https://cdn.iconscout.com/icon/free/png-256/bitcoin-1824299-1545921.png"/>50.000</div>
                 </div>
-
             </div>
 
             <hr className="header__undeline"></hr>

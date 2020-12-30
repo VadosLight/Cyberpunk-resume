@@ -4,8 +4,7 @@ import Header from "./Menu/Header"
 
 function App() {
   return (
-    <Header/>
-    
+    <Header/>   
   )
 
 }
