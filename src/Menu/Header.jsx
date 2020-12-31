@@ -21,7 +21,7 @@ export default function MainMenu(){
                 </div>
 
                 <div className="header__menu">
-                    <button onClick={handleClick} className="header__menu_unselected"> Об о мне</button>
+                    <button onClick={handleClick} className="header__menu_unselected"> Обо мне</button>
                     <button onClick={handleClick} className="header__menu_unselected">Навыки</button>
                     <button onClick={handleClick} className="header__menu_unselected">Проекты</button>
                 </div>
