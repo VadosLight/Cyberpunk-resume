@@ -6,6 +6,12 @@ function handleClick(e) {
     alert("Произошло НАЖАТИЕ!")
 }
 
+function myAge(){
+    
+    return Math.floor((new Date() - new Date(1997, 12, 9).getTime()) / 3.15576e+10) + 1;
+    
+}
+
 export default function MainMenu(){
     return (
         <div className="header">
@@ -13,7 +19,7 @@ export default function MainMenu(){
 
                 <div className="header__left-elements">
                     <div className="header__level">
-                        <div className="header__level__number">23</div>
+                        <div className="header__level__number">{myAge()}</div>
                         <div className="header__level__text">Уровень</div>
                     </div>
 
