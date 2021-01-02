@@ -7,9 +7,7 @@ function handleClick(e) {
 }
 
 function myAge(){
-    
-    return Math.floor((new Date() - new Date(1997, 12, 9).getTime()) / 3.15576e+10) + 1;
-    
+        return Math.floor((new Date() - new Date(1997, 12, 9).getTime()) / 3.15576e+10) + 1;  
 }
 
 export default function MainMenu(){
@@ -27,13 +25,13 @@ export default function MainMenu(){
                 </div>
 
                 <div className="header__menu">
-                    <button onClick={handleClick} className="header__menu_unselected"> Обо мне</button>
-                    <button onClick={handleClick} className="header__menu_unselected">Навыки</button>
-                    <button onClick={handleClick} className="header__menu_unselected">Проекты</button>
+                    <a href="/about" className="header__menu_unselected"> Обо мне</a>
+                    <a href="/skills" className="header__menu_unselected">Навыки</a>
+                    <a href="/projects" className="header__menu_unselected">Проекты</a>
                 </div>
 
                 <div className="header__right-elements">
-                    <div><img class="header__icon" 
+                    <div><img class="header__icon icon_weight" 
                     alt="weight"
                     src="https://cdn.iconscout.com/icon/free/png-512/weight-345-1176808.png"/> 70/200</div>
                     <div><img class="header__icon" 
