@@ -18,33 +18,37 @@ function App() {
   const transitions = useTransition(location, (location) => location.pathname, {
     from: {
       opacity: 0,
-    }, 
+      transform: "translateX(100%)",
+    },
     enter: {
       opacity: 1,
+      transform: "translateX(0%)",
     },
     leave: {
       opacity: 0,
-    }
-
+      transform: "translateX(-100%)",
+    },
   });
 
   return (
     <>
       <Header />
-      <main className="container" style={{position:"relative"}}>
-        {transitions.map(({item, props, key}) => (
-          <animated.div key={key} style={props}>
-            <div style={{ position:"absolute", width:"100%"}}>
-            <Switch location={item}>
-              <Route exact path="/about" component={About} />
-              <Route exact path="/projects" component={Projects} />
-              <Route exact path="/skills" component={Skills} />
-            </Switch>
 
+      <main
+        className="container"
+        style={{ position: "relative", overflow: "hidden", minHeight: "90vh" }}
+      >
+        {transitions.map(({ item, props, key }) => (
+          <animated.div key={key} style={props}>
+            <div style={{ position: "absolute", width: "100%", margin: "0px 20px" }}>
+              <Switch location={item}>
+                <Route exact path="/" component={About} />
+                <Route exact path="/projects" component={Projects} />
+                <Route exact path="/skills" component={Skills} />
+              </Switch>
             </div>
           </animated.div>
         ))}
-
       </main>
     </>
   );

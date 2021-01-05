@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import React from "react";
 import "./Header.css";
 
-
 function myAge() {
   return (
     Math.floor((new Date() - new Date(1997, 12, 9).getTime()) / 3.15576e10) + 1
@@ -23,8 +22,7 @@ export default function MainMenu() {
         </div>
 
         <div className="header__menu">
-          <Link to="/about" className="header__menu_unselected">
-            {" "}
+          <Link to="/" className="header__menu_unselected">
             Обо мне
           </Link>
           <Link to="/skills" className="header__menu_unselected">
@@ -41,7 +39,7 @@ export default function MainMenu() {
               class="header__icon icon_weight"
               alt="weight"
               src="https://cdn.iconscout.com/icon/free/png-512/weight-345-1176808.png"
-            />{" "}
+            />
             70/200
           </div>
           <div>

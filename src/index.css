@@ -13,6 +13,7 @@ body {
   
   font-family: -apple-system, BlinkMacSystemFont, 'Oswald', sans-serif;
 
+  color: var(--pink-glow);
   -moz-text-shadow:0 0 4px var(--pink-glow); 
   -webkit-text-shadow:0 0 4px var(--pink-glow); 
   text-shadow:0 0 4px var(--pink-glow); 
