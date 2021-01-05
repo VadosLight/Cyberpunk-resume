@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import React from "react";
 import "./Header.css";
 
+import coinIco from "./img/coin.png";
+import kgIco from "./img/kg.png";
+
 function myAge() {
   return (
     Math.floor((new Date() - new Date(1997, 12, 9).getTime()) / 3.15576e10) + 1
@@ -35,19 +38,11 @@ export default function MainMenu() {
 
         <div className="header__right-elements">
           <div>
-            <img
-              class="header__icon icon_weight"
-              alt="weight"
-              src="https://cdn.iconscout.com/icon/free/png-512/weight-345-1176808.png"
-            />
+            <img class="header__icon icon_weight" alt="weight" src={kgIco} />
             70/200
           </div>
           <div>
-            <img
-              class="header__icon"
-              alt="salary"
-              src="https://cdn.iconscout.com/icon/free/png-256/bitcoin-1824299-1545921.png"
-            />
+            <img class="header__icon" alt="salary" src={coinIco} />
             50.000
           </div>
         </div>
