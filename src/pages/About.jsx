@@ -4,14 +4,22 @@ import shackNewsLogo from "./img/shack-news.png";
 
 document.addEventListener("mousemove", parallax);
 function parallax(e) {
-  this.querySelectorAll(".parallax").forEach((parallax) => {
-    const speed = parallax.getAttribute("data-speed");
+  const width =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth;
 
-    const x = (window.innerWidth - e.pageX * speed) / 100;
-    const y = (window.innerHeight - e.pageY * speed) / 100;
+    this.querySelectorAll(".parallax").forEach((parallax) => {
+      let speed = 0;
+      if (width >= 800) {
+          speed = parallax.getAttribute("data-speed");
+      }
+      const x = (width - e.pageX * speed) / 100;
+      const y = (window.innerHeight - e.pageY * speed) / 100;
 
-    parallax.style.transform = `translateX(${x}px) translateY(${y}px)`;
-  });
+      parallax.style.transform = `translateX(${x}px) translateY(${y}px)`;
+    });
+  
 }
 
 function About() {
