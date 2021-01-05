@@ -1,10 +1,5 @@
 import { useTransition, animated } from "react-spring";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  useLocation,
-} from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
 
 import React from "react";
 import Header from "./Menu/Header";
@@ -36,11 +31,16 @@ function App() {
 
       <main
         className="container"
-        style={{ position: "relative", overflow: "hidden", minHeight: "90vh" }}
+        style={{
+          position: "relative",
+          overflow: "hidden",
+          minHeight: "90vh",
+          margin: "0px 25px 0px 25px",
+        }}
       >
         {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>
-            <div style={{ position: "absolute", width: "100%", margin: "0px 20px" }}>
+            <div style={{ position: "absolute", width: "100%" }}>
               <Switch location={item}>
                 <Route exact path="/" component={About} />
                 <Route exact path="/projects" component={Projects} />

@@ -3,7 +3,9 @@ import "./About.css";
 function About() {
   return (
     <div className="about">
-        Обо мне
+        <div className="third">1</div>
+        <div className="third">2</div>
+        <div className="third">3</div>
     </div>
   );
 }
