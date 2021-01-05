@@ -1,26 +1,50 @@
-.about {
+.about{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  flex-grow: 1;
+
 }
 
 @media screen and (max-width: 800px) {
-  .about {
-    flex-direction: column;
+  .about{
+    flex-direction: column;   
+    font-size: larger;
+  }
+
+  .about__first-third {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+  }
+
+  
+  img.about__second-third {
+    width: 80%;
+  }
+  
+  .about__last-third {
+    
+  }
+  
+  img.shack-news-logo{
+    width: 80%;
   }
 }
 
-.about__third {
+
+.about__last-third {
   min-width: 30%;
 }
 
-.about__third_my-photo {
-  width: 23vw;
+.about__second-third {
+  width: 21vw;
 }
 
-.shack-news-logo {
+.about__first-third {
+  width: auto;
+}
+
+.shack-news-logo{
   width: 23vw;
 }

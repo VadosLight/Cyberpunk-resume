@@ -1,8 +1,7 @@
 document.addEventListener("mousemove", parallax);
 function parallax(e) {
   this.querySelectorAll(".parallax").forEach((parallax) => {
-    let speed = parallax.getAttribute("data-speed");
-
+    const speed = parallax.getAttribute("data-speed");
     const x = (window.innerWidth - e.pageX * speed) / 100;
     const y = (window.innerHeight - e.pageY * speed) / 100;
 
