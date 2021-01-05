@@ -35,7 +35,7 @@ function App() {
           position: "relative",
           overflow: "hidden",
           minHeight: "90vh",
-          margin: "0px 25px 0px 25px",
+          margin: "30px 25px 0px 25px",
         }}
       >
         {transitions.map(({ item, props, key }) => (

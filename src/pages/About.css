@@ -1,12 +1,26 @@
-.about{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: space-around;   
-    justify-content: space-around;
-
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
 }
 
-.third{
-    
+@media screen and (max-width: 500px){
+    .about{
+        flex-direction: column;
+    }
+}
+
+.about__third {
+    min-width: 30%;
+}
+
+.about__third_my-photo {
+  width: 23vw;
+}
+
+.shack-news-logo {
+  width: 23vw;
 }
