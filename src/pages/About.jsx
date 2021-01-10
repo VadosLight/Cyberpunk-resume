@@ -16,7 +16,11 @@ function About() {
         </p>
       </div>
       <img className="about__second-third" src={myAvatar} alt="Тут должен быть я" />
-      <div className="about__last-third">12345678901234567890-01234567</div>
+      <div className="about__last-third">
+        <p>
+          Контакты:
+        </p>
+      </div>
     </div>
   );
 }
