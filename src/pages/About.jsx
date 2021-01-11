@@ -1,6 +1,6 @@
 import "./About.css";
-import myAvatar from "./img/me.png";
-import shackNewsLogo from "./img/shack-news.png";
+import myAvatar from "./img/About/me.png";
+import shackNewsLogo from "./img/About/shack-news.png";
 
 function About() {
   return (
@@ -51,9 +51,8 @@ function About() {
           <div className="content-block__header">Дополнительно</div>
           <div className="content-block__content">
             <p>Город: Санкт-Петербург</p>
-            
-            <p>Текщая должность: Системный администратор</p>
 
+            <p>Текщая должность: Системный администратор</p>
           </div>
         </div>
 

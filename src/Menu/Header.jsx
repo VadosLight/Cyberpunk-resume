@@ -6,8 +6,8 @@ import coinIco from "./img/coin.png";
 import kgIco from "./img/kg.png";
 
 function myAge() {
-  return (
-    Math.floor((new Date() - new Date(1997, 12, 9).getTime()) / 3.15576e10)
+  return Math.floor(
+    (new Date() - new Date(1997, 12, 9).getTime()) / 3.15576e10
   );
 }
 
