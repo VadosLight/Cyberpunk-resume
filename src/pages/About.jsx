@@ -11,15 +11,31 @@ function About() {
           src={shackNewsLogo}
           alt="shack-news-logo"
         />
-        <p>
-          Обо мне
-        </p>
+        <p className="myName">Татаринцев Вадим</p>
+        <div className="content-block">
+          <div className="content-block__header">Образование</div>
+          <div className="content-block__content">
+            <p>Высшее: СПбГТИ(ТУ)</p>
+            <p>Факультет: САПРиУ</p>
+            <p>Специальность: Прикладная информатика</p>
+          </div>
+        </div>
+        <div className="content-block">
+          <div className="content-block__header">Языки</div>
+          <div className="content-block__content">
+            <p>Русский: родной</p>
+            <p>Английский: B2</p>
+            
+          </div>
+        </div>
       </div>
-      <img className="about__second-third" src={myAvatar} alt="Тут должен быть я" />
+      <img
+        className="about__second-third"
+        src={myAvatar}
+        alt="Тут должен быть я"
+      />
       <div className="about__last-third">
-        <p>
-          Контакты:
-        </p>
+        <p>Контакты:</p>
       </div>
     </div>
   );
