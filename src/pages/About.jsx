@@ -11,13 +11,15 @@ function About() {
           src={shackNewsLogo}
           alt="shack-news-logo"
         />
-        <p className="about__first-third__my-name">Татаринцев Вадим - Frontend разработчик</p>
+        <p className="about__first-third__my-name">
+          Татаринцев Вадим - Frontend разработчик
+        </p>
         {/* --------------------------------------------------------- */}
         <div className="content-block">
           <div className="content-block__header">Стек технологий</div>
           <div className="content-block__content">
             <p>HTML5 + CSS</p>
-            <p>React</p>
+            <p>React / Redux</p>
             <p>Node.js</p>
           </div>
         </div>
@@ -46,12 +48,31 @@ function About() {
       {/* --------------------------------------------------------- */}
       <div className="about__last-third">
         <div className="content-block">
+          <div className="content-block__header">Дополнительно</div>
+          <div className="content-block__content">
+            <p>Город: Санкт-Петербург</p>
+            
+            <p>Текщая должность: Системный администратор</p>
+
+          </div>
+        </div>
+
+        <div className="content-block">
           <div className="content-block__header">Контакты</div>
           <div className="content-block__content">
             <p>Телефон: +7(951)672-16-62</p>
             <p>E-mail: it-vadim@inbox.ru</p>
-            <p><a href="https://vk.com/vados_light">ВКонтакте</a></p>
-            <a href="https://github.com/VadosLight">GitHub</a>
+            <p>
+              <a href="https://vk.com/vados_light">ВКонтакте</a>
+            </p>
+            <p>
+              <a href="https://github.com/VadosLight">GitHub</a>
+            </p>
+            <p>
+              <a href="https://spb.hh.ru/resume/5dc4b590ff0882f0450039ed1f6d77384f5338">
+                Hh.ru
+              </a>
+            </p>
           </div>
         </div>
       </div>

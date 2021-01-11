@@ -3,7 +3,7 @@ import { Route, Switch, useLocation } from "react-router-dom";
 
 import React from "react";
 import Header from "./Menu/Header";
-import { myAnimation } from "./scripts/animation";
+import MyAnimation from "./scripts/MyAnimation";
 import "./App.css";
 
 import { About } from "./pages/About";
@@ -29,16 +29,13 @@ function App() {
 
   return (
     <>
-      <myAnimation/>
-
+      <MyAnimation />
       <Header />
+
       <main className="container">
         {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>
-            <div
-              className="switch"
-              // style={{ position: "absolute", width: "100%" }}
-            >
+            <div className="switch">
               <Switch location={item}>
                 <Route exact path="/" component={About} />
                 <Route exact path="/projects" component={Projects} />

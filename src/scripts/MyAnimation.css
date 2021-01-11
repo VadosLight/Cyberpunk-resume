@@ -1,0 +1,21 @@
+.marquee {
+  display: block;
+  overflow: hidden;
+  /*This control the width of the container itself, it HAS to be the lenght of the text itself or more  or it will be cutted*/
+  width: 100vh;
+  /*The height of the line is acutally the width as the element will get rotated*/
+  height: 5px;
+  line-height: 5px;
+
+  /* -webkit-transform: rotate(-90deg) translateY(-100%) translateX(0%);
+  -moz-transform: rotate(-90deg) translateY(-100%) translateX(0%);
+  -o-transform: rotate(-90deg) translateY(-100%) translateX(0%); */
+  transform: rotate(90deg) translateY(-100%) translateX(0%);
+
+  position: fixed;
+  top: 100%;
+  left: 110px;
+
+  /*You need to change this to position the marquee*/
+  margin-left: 35px;
+}

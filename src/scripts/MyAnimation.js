@@ -1,3 +1,5 @@
+import "./MyAnimation.css";
+
 document.addEventListener("mousemove", parallax);
 function parallax(e) {
   this.querySelectorAll(".parallax").forEach((parallax) => {
@@ -7,4 +9,13 @@ function parallax(e) {
 
     parallax.style.transform = `translateX(${x}px) translateY(${y}px)`;
   });
+}
+
+export default function MyAnimation() {
+  return (
+    <></>
+    // <div>
+    //   <marquee className="marquee">123</marquee>
+    // </div>
+  );
 }
