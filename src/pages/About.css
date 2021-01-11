@@ -1,25 +1,35 @@
+a {
+  color: var(--pink-glow);
+}
+
 .about {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  min-height: fit-content;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .about {
+    align-items: center;
     flex-direction: column;
     font-size: larger;
   }
 
   .about__first-third {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
   }
 
   img.about__second-third {
     width: 80%;
+  }
+
+  .about__last-third {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
   }
 
   img.shack-news-logo {
@@ -28,10 +38,15 @@
 }
 
 .about__first-third {
-  width: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.about__first-third__my-name {
+  color: var(--green-glow);
+  text-shadow: 0 0 4px var(--green-glow);
+  font-size: larger;
 }
 
 .content-block {
@@ -44,9 +59,14 @@
   padding: 3px 15px;
 
   --backgroung-color: rgb(26, 7, 7);
-  background: linear-gradient(135deg, transparent 10px,var(--backgroung-color) 0) top
-      left,
-    linear-gradient(-45deg, transparent 15px, var(--backgroung-color) 0) bottom right;
+  background: linear-gradient(
+        135deg,
+        transparent 10px,
+        var(--backgroung-color) 0
+      )
+      top left,
+    linear-gradient(-45deg, transparent 15px, var(--backgroung-color) 0) bottom
+      right;
 
   background-size: 50% 100%;
   background-repeat: no-repeat;
@@ -68,6 +88,9 @@
 }
 
 .about__last-third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   min-width: 30%;
 }
 
