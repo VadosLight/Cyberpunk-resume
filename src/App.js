@@ -4,6 +4,7 @@ import { Route, Switch, useLocation } from "react-router-dom";
 import React from "react";
 import Header from "./Menu/Header";
 import { myAnimation } from "./scripts/animation";
+import "./App.css";
 
 import { About } from "./pages/About";
 import { Projects } from "./pages/Projects";
@@ -28,22 +29,16 @@ function App() {
 
   return (
     <>
-      <myAnimation />
-      
-      <Header />
+      <myAnimation/>
 
-      <main
-        className="container"
-        style={{
-          position: "relative",
-          overflow: "hidden",
-          minHeight: "90vh",
-          margin: "30px 25px 0px 25px",
-        }}
-      >
+      <Header />
+      <main className="container">
         {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>
-            <div style={{ position: "absolute", width: "100%" }}>
+            <div
+              className="switch"
+              // style={{ position: "absolute", width: "100%" }}
+            >
               <Switch location={item}>
                 <Route exact path="/" component={About} />
                 <Route exact path="/projects" component={Projects} />

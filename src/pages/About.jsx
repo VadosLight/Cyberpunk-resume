@@ -11,7 +11,7 @@ function About() {
           src={shackNewsLogo}
           alt="shack-news-logo"
         />
-        <p className="myName">Татаринцев Вадим</p>
+        <p className="myName">Татаринцев Вадим - Frontend разработчик</p>
         <div className="content-block">
           <div className="content-block__header">Образование</div>
           <div className="content-block__content">
@@ -25,7 +25,6 @@ function About() {
           <div className="content-block__content">
             <p>Русский: родной</p>
             <p>Английский: B2</p>
-            
           </div>
         </div>
       </div>
