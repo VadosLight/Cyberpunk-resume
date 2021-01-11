@@ -1,5 +1,5 @@
 import "./About.css";
-import myAvatar from "./img/me.jpg";
+import myAvatar from "./img/me.png";
 import shackNewsLogo from "./img/shack-news.png";
 
 function About() {
