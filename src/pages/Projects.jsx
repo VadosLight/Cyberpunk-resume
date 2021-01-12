@@ -11,9 +11,7 @@ function Projects() {
       <p className="head">Список проектов</p>
       <div className="projects-list">
         <a href="/" className="project">
-          <div className="project__description">
-            <p className="project__description__name">Сайт - Резюме</p>
-          </div>
+          <div className="project__description">Сайт - Резюме</div>
           <img src={firstImg} alt="Проект" />
         </a>
 
@@ -21,9 +19,7 @@ function Projects() {
           href="https://github.com/VadosLight?tab=repositories"
           className="project"
         >
-          <div className="project__description">
-            <p className="project__description__name">Прочие проекты</p>
-          </div>
+          <div className="project__description">Прочие проекты</div>
           <img src={secondImg} alt="Проект" />
         </a>
 
@@ -36,9 +32,12 @@ function Projects() {
         </a> */}
 
         <a href="" className="project">
-          <div className="project__description">
-            <p className="project__description__name">В разработке</p>
-          </div>
+          <div className="project__description">В разработке</div>
+          <img src={lastImg} alt="Проект" />
+        </a>
+
+        <a href="" className="project">
+          <div className="project__description">В разработке</div>
           <img src={lastImg} alt="Проект" />
         </a>
       </div>

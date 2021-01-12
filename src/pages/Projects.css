@@ -6,7 +6,7 @@ img {
 }
 
 .projects {
-  margin: 0 10px 40px 0;
+  margin: 0 0 40px 0;
 
   display: flex;
   flex-direction: column;
@@ -36,14 +36,14 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   align-content: space-around;
 }
 
 .project {
   position: relative;
-  margin: 15px 10px;
+  margin: 15px 45px;
   border: 2px solid var(--pink-glow);
   -moz-box-shadow: 0 0 4px var(--pink-glow);
   -webkit-box-shadow: 0 0 4px var(--pink-glow);
@@ -67,6 +67,7 @@ img {
 .project__description {
   color: var(--blue-glow);
   text-shadow: 0 0 4px black;
+  text-align: center;
   background: linear-gradient(
     180deg,
     rgba(209, 209, 209, 0.02) 0%,
@@ -74,11 +75,11 @@ img {
   );
   width: inherit;
   position: absolute;
-  bottom: 0;
-  height: 22%;
-}
+  padding-top: 15px;
+  /* width: 336px; */
 
-.project__description__name {
-  margin: 10px 15px;
+  bottom: 0;
+  height: 20%;
+
   font-size: larger;
 }
