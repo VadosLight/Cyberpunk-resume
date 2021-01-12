@@ -10,7 +10,7 @@ function Projects() {
     <div className="projects parallax" data-speed="1">
       <p className="head">Список проектов</p>
       <div className="projects-list">
-        <a href="/" className="project">
+        <a href="https://master.d3jaoc7z69q0bg.amplifyapp.com/" className="project">
           <div className="project__description">Сайт - Резюме</div>
           <img src={firstImg} alt="Проект" />
         </a>
