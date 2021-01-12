@@ -2,7 +2,7 @@ import "./Projects.css";
 
 import firstImg from "./img/Projects/first.jpg";
 import secondImg from "./img/Projects/second.jpg";
-import thirdImg from "./img/Projects/second.jpg";
+// import thirdImg from "./img/Projects/second.jpg";
 import lastImg from "./img/Projects/last.png";
 
 function Projects() {
