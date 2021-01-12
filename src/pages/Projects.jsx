@@ -30,13 +30,12 @@ function Projects() {
           </div>
           <img src={thirdImg} alt="Проект" />
         </a> */}
-
-        <a href="" className="project">
+        <a href="/" className="project">
           <div className="project__description">В разработке</div>
           <img src={lastImg} alt="Проект" />
         </a>
 
-        <a href="" className="project">
+        <a href="/" className="project">
           <div className="project__description">В разработке</div>
           <img src={lastImg} alt="Проект" />
         </a>
