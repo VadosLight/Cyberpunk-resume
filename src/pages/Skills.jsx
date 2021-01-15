@@ -1,10 +1,12 @@
 import "./Skills.css";
 
 function getNStars(n = 0) {
-  return 0 <= n <= 5
+  return "";//убираю вездочки
+  // eslint-disable-next-line
+  return 0 <= n && n <= 5
     ? String.fromCodePoint(9733).repeat(n) +
         String.fromCodePoint(9734).repeat(5 - n)
-    : 0;
+    : "";
 }
 
 function Skills() {

@@ -1,5 +1,8 @@
+// import React, { Suspense } from 'react';
+
 import "./About.css";
 import myAvatar from "./img/About/me.png";
+// const myAvatar = React.lazy(() => import("./img/About/me.png"));
 import shackNewsLogo from "./img/About/shack-news.png";
 
 function About() {

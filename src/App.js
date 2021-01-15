@@ -2,7 +2,7 @@ import { useTransition, animated } from "react-spring";
 import { Route, Switch, useLocation } from "react-router-dom";
 
 import React from "react";
-import Header from "./Menu/Header";
+import Header from "./menu/Header";
 import MyAnimation from "./scripts/MyAnimation";
 import "./App.css";
 
