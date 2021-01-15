@@ -105,3 +105,8 @@
   border-bottom: 1px solid;
   padding-bottom: 3px;
 }
+
+.shack-news-logo {
+  margin: 10px 0 10px 30px; 
+  width: 23vw;
+}

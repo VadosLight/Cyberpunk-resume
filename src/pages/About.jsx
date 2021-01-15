@@ -3,17 +3,17 @@
 import "./About.css";
 import myAvatar from "./img/About/me.png";
 // const myAvatar = React.lazy(() => import("./img/About/me.png"));
-import shackNewsLogo from "./img/About/shack-news.png";
+// import shackNewsLogo from "./img/About/shack-news.png";
 
 function About() {
   return (
     <div className="parallax about" data-speed="1">
       <div className="about__first-third">
-        <img
+        {/* <img
           className="shack-news-logo"
           src={shackNewsLogo}
           alt="shack-news-logo"
-        />
+        /> */}
         <p className="about__first-third__my-name">
           Татаринцев Вадим - Frontend разработчик
         </p>

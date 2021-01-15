@@ -5,6 +5,8 @@ import "./Header.css";
 
 import coinIco from "./img/coin.png";
 import kgIco from "./img/kg.png";
+import shackNewsLogo from "./img/shack-news.png";
+
 
 function myAge() {
   return Math.floor(
@@ -54,6 +56,11 @@ export default function MainMenu() {
       </div>
 
       <hr className="header__undeline"></hr>
+      <img
+          className="shack-news-logo"
+          src={shackNewsLogo}
+          alt="shack-news-logo"
+        />
     </div>
   );
 }
