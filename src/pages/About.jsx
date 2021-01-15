@@ -60,6 +60,11 @@ function About() {
           <div className="content-block__header">Контакты</div>
           <div className="content-block__content">
             <p>Телефон: +7(951)672-16-62</p>
+            <p>
+              <a href="https://t.me/Vados_light">
+                Telegram
+              </a>
+            </p>
             <p>E-mail: it-vadim@inbox.ru</p>
             <p>
               <a href="https://vk.com/vados_light">ВКонтакте</a>

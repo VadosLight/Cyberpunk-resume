@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
+
 import "./Header.css";
 
 import coinIco from "./img/coin.png";
@@ -10,10 +11,14 @@ function myAge() {
     (new Date() - new Date(1997, 12, 9).getTime()) / 3.15576e10
   );
 }
+function setTitle(){
+  document.title = "Резюме";
+}
 
 export default function MainMenu() {
   return (
     <div className="header">
+      {setTitle()}
       <div className="header__top-elements">
         <div className="header__left-elements">
           <div className="header__level">

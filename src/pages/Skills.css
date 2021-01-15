@@ -1,8 +1,42 @@
-.skills{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: space-around;   
-    justify-content: space-around;
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
 
+.skills .content-block {
+  padding: 0;
+  width: 30%;
+  /* width: 400px; */
+}
+
+.content-block__header {
+  font-size: larger;
+  padding: 3px 15px;
+
+  --backgroung-color: rgb(26, 7, 7);
+  background: linear-gradient(
+        135deg,
+        transparent 10px,
+        var(--backgroung-color) 0
+      )
+      top left,
+    linear-gradient(-45deg, transparent 15px, var(--backgroung-color) 0) bottom
+      right;
+
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+.content-block__content {
+  border-style: none none none solid;
+  border-width: 1px;
+  position: relative;
+  top: -10px;
+
+  margin-left: 15px;
+  padding-left: 5px;
 }

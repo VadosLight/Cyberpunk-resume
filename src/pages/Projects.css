@@ -44,6 +44,8 @@ img {
 .project {
   position: relative;
   margin: 15px 45px;
+  border-radius: 4px;
+
   border: 2px solid var(--pink-glow);
   -moz-box-shadow: 0 0 4px var(--pink-glow);
   -webkit-box-shadow: 0 0 4px var(--pink-glow);
