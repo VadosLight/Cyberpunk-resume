@@ -33,7 +33,6 @@ function Skills() {
         <div className="content-block__header">Базы данных</div>
         <div className="content-block__content">
           <p>PostgreSQL {getNStars(2)}</p>
-          <p>SQLite {getNStars(4)}</p>
         </div>
       </div>
 
