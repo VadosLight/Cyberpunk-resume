@@ -97,4 +97,18 @@ a {
   padding-left: 5px;
 }
 
+.content-block__content p:hover {
+  margin-left: 10px;
+  transition: 400ms;
+  transform: scale(1.05);
+  color: var(--blue-glow);
+  text-shadow: 0 0 4px var(--blue-glow);
+}
 
+.content-block__content p:hover {
+  transition: 300ms;
+}
+
+a:hover {
+  color: var(--blue-glow);
+}
