@@ -10,10 +10,7 @@ function Projects() {
     <div className="projects parallax" data-speed="1">
       <p className="head">Список проектов</p>
       <div className="projects-list">
-        <a
-          href="https://master.d3jaoc7z69q0bg.amplifyapp.com/"
-          className="project"
-        >
+        <a href="https://cyberpunk-resume.vercel.app/" className="project">
           <div className="project__description">Сайт - Резюме</div>
           <img src={firstImg} alt="Проект" />
         </a>
@@ -26,13 +23,6 @@ function Projects() {
           <img src={secondImg} alt="Проект" />
         </a>
 
-        {/* <a href="/" className="project">
-          <div className="project__description">
-            <p className="project__description__name">Some name</p>
-
-          </div>
-          <img src={thirdImg} alt="Проект" />
-        </a> */}
         <a href="/" className="project">
           <div className="project__description">В разработке</div>
           <img src={lastImg} alt="Проект" />

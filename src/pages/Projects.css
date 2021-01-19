@@ -55,7 +55,6 @@ img {
   height: 350px;
 
   font-size: larger;
-
 }
 
 /* .project::before{
@@ -74,7 +73,6 @@ img {
   border-style: inset;
 
 } */
-
 
 .project:hover {
   transform: scale(1.1);

@@ -16,7 +16,7 @@
   right: 5px;
 }
 /* Чуть позже сделаю ярче саму иконку */
-.icon_weight {
+.icon-weight {
   filter: brightness(1000%);
 }
 
@@ -60,17 +60,17 @@
   justify-content: space-evenly;
   flex-grow: 3;
 }
-.header__menu_unselected {
+.header__menu-unselected {
   color: var(--pink-glow);
   text-decoration: none;
 }
-.header__menu_unselected:hover {
+.header__menu-unselected:hover {
   color: var(--blue-glow);
   text-shadow: 0 0 4px var(--blue-glow);
   transform: scale(1.2);
   transition: 300ms;
 }
-.header__menu_unselected:not(:hover) {
+.header__menu-unselected:not(:hover) {
   transition: 300ms;
 }
 
@@ -107,6 +107,6 @@
 }
 
 .shack-news-logo {
-  margin: 10px 0 10px 30px; 
+  margin: 10px 0 10px 30px;
   width: 23vw;
 }

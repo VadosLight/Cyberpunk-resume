@@ -7,20 +7,15 @@ import coinIco from "./img/coin.png";
 import kgIco from "./img/kg.png";
 import shackNewsLogo from "./img/shack-news.png";
 
-
 function myAge() {
   return Math.floor(
     (new Date() - new Date(1997, 12, 9).getTime()) / 3.15576e10
   );
 }
-function setTitle(){
-  document.title = "Резюме";
-}
 
 export default function MainMenu() {
   return (
     <div className="header">
-      {setTitle()}
       <div className="header__top-elements">
         <div className="header__left-elements">
           <div className="header__level">
@@ -32,20 +27,20 @@ export default function MainMenu() {
         </div>
 
         <div className="header__menu">
-          <Link to="/" className="header__menu_unselected">
+          <Link to="/" className="header__menu-unselected">
             Обо мне
           </Link>
-          <Link to="/skills" className="header__menu_unselected">
+          <Link to="/skills" className="header__menu-unselected">
             Навыки
           </Link>
-          <Link to="/projects" className="header__menu_unselected">
+          <Link to="/projects" className="header__menu-unselected">
             Проекты
           </Link>
         </div>
 
         <div className="header__right-elements">
           <div>
-            <img class="header__icon icon_weight" alt="weight" src={kgIco} />
+            <img class="header__icon icon-weight" alt="weight" src={kgIco} />
             70/200
           </div>
           <div>
@@ -54,13 +49,12 @@ export default function MainMenu() {
           </div>
         </div>
       </div>
-
       <hr className="header__undeline"></hr>
       <img
-          className="shack-news-logo"
-          src={shackNewsLogo}
-          alt="shack-news-logo"
-        />
+        className="shack-news-logo"
+        src={shackNewsLogo}
+        alt="shack-news-logo"
+      />
     </div>
   );
 }
