@@ -23,12 +23,12 @@ function Projects() {
         />
         <Project
           text={"В разработке"}
-          href={"https://cyberpunk-resume.vercel.app/"}
+          href={"/"}
           image={lastImg}
         />
         <Project
           text={"В разработке"}
-          href={"https://cyberpunk-resume.vercel.app/"}
+          href={"/"}
           image={lastImg}
         />
       </div>
