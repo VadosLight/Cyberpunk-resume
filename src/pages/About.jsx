@@ -1,19 +1,20 @@
-// import React, { Suspense } from 'react';
-
+import React from 'react';
+import LazyLoad from 'react-lazyload';
 import "./About.css";
-import myAvatar from "./img/About/me.png";
+
 // const myAvatar = React.lazy(() => import("./img/About/me.png"));
+
+
+import myAvatar from "./img/About/me.png";
 // import shackNewsLogo from "./img/About/shack-news.png";
 
 function About() {
+
+
   return (
     <div className="parallax about" data-speed="1">
       <div className="about__first-third">
-        {/* <img
-          className="shack-news-logo"
-          src={shackNewsLogo}
-          alt="shack-news-logo"
-        /> */}
+
         <p className="about__first-third__my-name">
           Татаринцев Вадим - Frontend разработчик
         </p>
@@ -26,6 +27,7 @@ function About() {
             <p>Node.js</p>
           </div>
         </div>
+
         <div className="content-block">
           <div className="content-block__header">Образование</div>
           <div className="content-block__content">
@@ -34,6 +36,7 @@ function About() {
             <p>Специальность: Прикладная информатика</p>
           </div>
         </div>
+
         <div className="content-block">
           <div className="content-block__header">Языки</div>
           <div className="content-block__content">
@@ -42,13 +45,16 @@ function About() {
           </div>
         </div>
       </div>
-      {/* --------------------------------------------------------- */}
+
+
+      <LazyLoad height="200">
       <img
         className="about__second-third"
         src={myAvatar}
         alt="Тут должен быть я"
       />
-      {/* --------------------------------------------------------- */}
+      </LazyLoad>
+
       <div className="about__last-third">
         <div className="content-block">
           <div className="content-block__header">Дополнительно</div>
