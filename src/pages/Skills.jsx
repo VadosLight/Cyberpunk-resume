@@ -1,7 +1,8 @@
 import "./Skills.css";
+const CODE_WARS = "https://www.codewars.com/users/VadosLight/badges/large";
 
 function getNStars(n = 0) {
-  return "";//убираю вездочки
+  return ""; //убираю вездочки
   // eslint-disable-next-line
   return 0 <= n && n <= 5
     ? String.fromCodePoint(9733).repeat(n) +
@@ -38,10 +39,11 @@ function Skills() {
 
       <div className="content-block">
         <div className="content-block__header">Дополнительно</div>
-        <div className="content-block__content">
+        <div className="content-block__content">         
           <p>Основная методолгоия: БЭМ</p>
           <p>SPA</p>
           <p>Photoshop</p>
+          <img src={CODE_WARS} alt="code_wars" />
         </div>
       </div>
     </div>
