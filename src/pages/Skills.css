@@ -33,3 +33,7 @@
 .content-block__content p:not(:hover) {
   transition: 300ms;
 }
+
+a > img{
+  width: 350px;
+}
