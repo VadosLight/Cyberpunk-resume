@@ -36,7 +36,7 @@ function Skills() {
           <p>Основная методолгоия: БЭМ</p>
           <p>SPA</p>
           <p>Photoshop</p>
-          <a href="https://www.codewars.com/users/VadosLight" target="_blank">
+          <a href="https://www.codewars.com/users/VadosLight" >
             <img src={CODE_WARS} alt="code_wars" />
           </a>
         </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import LazyLoad from 'react-lazyload';
 import "./About.css";
 
@@ -17,8 +17,7 @@ function About() {
 
         <p className="about__first-third__my-name">
           Татаринцев Вадим - Frontend разработчик
-        </p>
-        {/* --------------------------------------------------------- */}
+        </p>        
         <div className="content-block">
           <div className="content-block__header">Стек технологий</div>
           <div className="content-block__content">
