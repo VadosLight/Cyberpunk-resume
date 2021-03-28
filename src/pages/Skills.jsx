@@ -39,11 +39,13 @@ function Skills() {
 
       <div className="content-block">
         <div className="content-block__header">Дополнительно</div>
-        <div className="content-block__content">         
+        <div className="content-block__content">
           <p>Основная методолгоия: БЭМ</p>
           <p>SPA</p>
           <p>Photoshop</p>
-          <a href="https://www.codewars.com/users/VadosLight"><img src={CODE_WARS} alt="code_wars" /></a>
+          <a href="https://www.codewars.com/users/VadosLight" target="_blank">
+            <img src={CODE_WARS} alt="code_wars" />
+          </a>
         </div>
       </div>
     </div>
