@@ -85,6 +85,7 @@ function About() {
                 Hh.ru
               </a>
             </p>
+            <p><a href="https://www.codewars.com/users/VadosLight">Code Wars</a></p>
           </div>
         </div>
       </div>
