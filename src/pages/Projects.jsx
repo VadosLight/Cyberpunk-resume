@@ -3,6 +3,7 @@ import Project from "./components/Project";
 
 import firstImg from "./img/Projects/first.jpg";
 import secondImg from "./img/Projects/second.jpg";
+import calcImg from "./img/Projects/calc.jpg";
 // import thirdImg from "./img/Projects/second.jpg";
 import lastImg from "./img/Projects/last.png";
 
@@ -15,6 +16,11 @@ function Projects() {
           text={"Сайт - Резюме"}
           href={"https://cyberpunk-resume.vercel.app/"}
           image={firstImg}
+        />
+        <Project
+          text={"Калькулятор"}
+          href={"https://vadoslight.github.io/Andersen_lab_7/"}
+          image={calcImg}
         />
         <Project
           text={"Прочие проекты"}
