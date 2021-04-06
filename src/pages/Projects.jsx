@@ -18,7 +18,7 @@ function Projects() {
           image={firstImg}
         />
         <Project
-          text={"Калькулятор"}
+          text={"Калькулятор с самописной математикой"}
           href={"https://vadoslight.github.io/Andersen_lab_7/"}
           image={calcImg}
         />
