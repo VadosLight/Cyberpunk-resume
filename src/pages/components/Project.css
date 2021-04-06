@@ -27,6 +27,7 @@
   color: var(--blue-glow);
   text-shadow: 0 0 4px black;
   text-align: center;
+  
   background: linear-gradient(
     180deg,
     rgba(209, 209, 209, 0.02) 0%,
@@ -36,11 +37,12 @@
   position: absolute;
   padding-top: 15px;
   /* width: 336px; */
+  padding-bottom: 20px;
 
   bottom: 0;
   height: 20%;
 
-  font-size: larger;
+  font-size: 26px;
 }
 
 .project__image{
