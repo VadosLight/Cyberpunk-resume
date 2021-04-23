@@ -4,6 +4,7 @@ import Project from "./components/Project";
 import firstImg from "./img/Projects/first.jpg";
 import secondImg from "./img/Projects/second.jpg";
 import calcImg from "./img/Projects/calc.jpg";
+import beerClub from "./img/Projects/beerClub.jpg";
 // import thirdImg from "./img/Projects/second.jpg";
 import lastImg from "./img/Projects/last.png";
 
@@ -21,6 +22,11 @@ function Projects() {
           text={"Калькулятор с самописной математикой"}
           href={"https://vadoslight.github.io/Andersen_lab_7/"}
           image={calcImg}
+        />
+        <Project
+          text={"Коллекция пива"}
+          href={"https://react-1-vadoslight.vercel.app/"}
+          image={beerClub}
         />
         <Project
           text={"Прочие проекты"}
