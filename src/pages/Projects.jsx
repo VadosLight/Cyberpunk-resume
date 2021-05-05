@@ -24,9 +24,14 @@ function Projects() {
           image={calcImg}
         />
         <Project
-          text={"Коллекция пива"}
+          text={"Коллекция пива (React vanilla)"}
           href={"https://react-1-vadoslight.vercel.app/"}
           image={beerClub}
+        />
+        <Project
+          text={"Поиск фильмов (React + Redux)"}
+          href={"https://react-cinema.vercel.app/"}
+          image={lastImg}
         />
         <Project
           text={"Прочие проекты"}
