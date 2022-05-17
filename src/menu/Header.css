@@ -31,7 +31,7 @@
   color: var(--pink-glow);
 }
 
-.header__undeline {
+.header__underline {
   border: none;
   background-color: var(--pink-glow);
   color: var(--pink-glow);

@@ -1,5 +1,5 @@
+import React from "react";
 import { Link } from "react-router-dom";
-// import React from "react";
 
 import "./Header.css";
 
@@ -49,7 +49,7 @@ export default function MainMenu() {
           </div>
         </div>
       </div>
-      <hr className="header__undeline"></hr>
+      <hr className="header__underline"></hr>
       <img
         className="shack-news-logo"
         src={shackNewsLogo}
