@@ -1,5 +1,4 @@
 // import React from 'react';
-import LazyLoad from 'react-lazyload';
 import "./About.css";
 
 // const myAvatar = React.lazy(() => import("./img/About/me.png"));
@@ -46,13 +45,11 @@ function About() {
       </div>
 
 
-      <LazyLoad height="200">
       <img
         className="about__second-third"
         src={myAvatar}
         alt="Тут должен быть я"
       />
-      </LazyLoad>
 
       <div className="about__last-third">
         <div className="content-block">

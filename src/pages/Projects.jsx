@@ -2,17 +2,25 @@ import "./Projects.css";
 import Project from "./components/Project";
 
 import firstImg from "./img/Projects/first.jpg";
-import secondImg from "./img/Projects/second.jpg";
 import calcImg from "./img/Projects/calc.jpg";
-import beerClub from "./img/Projects/beerClub.jpg";
 // import thirdImg from "./img/Projects/second.jpg";
-import lastImg from "./img/Projects/last.png";
+// import lastImg from "./img/Projects/last.png";
 
 function Projects() {
   return (
     <div className="projects parallax" data-speed="1">
       <p className="head">Список проектов</p>
       <div className="projects-list">
+        <Project
+          text={"СБЕР аналитика"}
+          href={"https://sberanalytics.ru/"}
+          image={'https://sberanalytics.ru/uploads/logo_landing_7a77a234d6.png'}
+        />
+        <Project
+          text={"X5 Dialog/Logistics"}
+          href={"https://dialog.x5.ru/logistics"}
+          image={'https://dialog.x5.ru/images/LogisticsPage/logistics-mobile.png'}
+        />
         <Project
           text={"Сайт - Резюме"}
           href={"https://cyberpunk-resume.vercel.app/"}
@@ -23,17 +31,12 @@ function Projects() {
           href={"https://vadoslight.github.io/Andersen_lab_7/"}
           image={calcImg}
         />
-        <Project
-          text={"Коллекция пива (React vanilla)"}
-          href={"https://react-1-vadoslight.vercel.app/"}
-          image={beerClub}
-        />
-        <Project
+        {/* <Project
           text={"Поиск фильмов (React + Redux)"}
           href={"https://react-cinema.vercel.app/"}
           image={lastImg}
-        />
-        <Project
+        /> */}
+        {/* <Project
           text={"Прочие проекты"}
           href={"https://github.com/VadosLight?tab=repositories"}
           image={secondImg}
@@ -47,7 +50,7 @@ function Projects() {
           text={"В разработке"}
           href={"/"}
           image={lastImg}
-        />
+        /> */}
       </div>
     </div>
   );

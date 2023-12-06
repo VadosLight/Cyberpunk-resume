@@ -45,7 +45,7 @@ export default function MainMenu() {
           </div>
           <div>
             <img class="header__icon" alt="salary" src={coinIco} />
-            50.000
+            330.000
           </div>
         </div>
       </div>
